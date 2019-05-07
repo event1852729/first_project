@@ -1,0 +1,10 @@
+<?php
+			include("connect_database.php");
+			$sql = "insert into test(test1) values	(5)";
+			if($stmt = $db->query($sql))
+			{
+				
+			}
+			echo "gagag";
+
+		?>

@@ -1,0 +1,271 @@
+
+.WhiteContent, .BlackContent, .GreenContent, .Content
+{
+  empty-cells:show;
+    
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  margin-right: 2px;
+  float: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 0px;
+   
+  font-size:13px;
+  text-indent: 0px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  font-weight: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  text-align: left;
+    
+  border-style: solid;
+  border-collapse: separate;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px
+}
+
+.WhiteContentCap, .BlackContentCap, .GreenContentCap, .ContentCap
+{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 0px;
+  
+  font-size: 16px;
+  text-indent: 0px;
+  letter-spacing: 2px;
+  line-height: 26px;
+  font-weight: normal;
+  font-variant: normal;
+  font-stretch: normal;
+    
+  border-style: solid;
+  border-collapse: separate;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.WhiteList, .BlackList, .GreenList, .List, GreenListTitle, .RedList, .SkyList, .BrownList
+{
+  empty-cells:show;
+    
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 2px;
+  margin-right: 2px;
+  float: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 0px;
+  
+  font-family: 新細明體;
+  font-size:14px;
+  text-indent: 0px;
+  line-height: 18px;
+  font-weight: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-size-adjust: none;
+  text-align:left;
+  letter-spacing: 1px;
+    
+  border-style: solid;
+  border-collapse: separate; /*邊框摺疊。*/
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+ 
+.WhiteListCap, .BlackListCap, .GreenListCap, .ListCap, .RedListCap, .SkyListCap, .BrownListCap
+{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 0px;
+  
+  font-family: 新細明體;
+  font-size: 16px;
+  text-indent: 0px;
+  letter-spacing: 1px;
+  #line-height: 24px;
+  font-weight: normal;
+  font-variant: normal;
+  font-stretch: normal;
+    
+  border-style: solid;
+  border-collapse: separate;
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.WhiteList
+{
+  background-color: #ffffff;
+  color:#000000;
+  border-color: #000000;
+}
+
+.WhiteListCap
+ {
+  background-color: #dddddd;
+  color: #000000;
+  border-color: #000000;
+}
+
+.WhiteContent
+{
+  background-color: #ffffff;
+  color:#000000; /*文字顏色*/
+  border-color: #000000;
+}
+
+.WhiteContentCap
+{
+  background-color: #dddddd;
+  color: #000000;
+  border-color: #000000;
+}
+
+.BlackList
+{
+  background-color: #444444;
+  color:#eeeeee;
+  border-color: #eeeeee;
+}
+
+.BlackListCap
+ {
+  background-color: #888888;
+  color: #ffffff;
+  border-top-color: #eeeeee;
+}
+
+.BlackContent
+{
+  background-color: #444444;
+  color:#eeeeee; /*文字顏色*/
+  border-color: #888888;
+}
+
+.BlackContentCap
+{
+  background-color: #888888;
+  color: #ffffff;
+  border-color: #888888;
+}
+
+.GreenContent
+{
+  background-color: #dddd93;
+  color: #000000; /*文字顏色*/
+  border-color: #000000;
+}
+
+.GreenContentCap
+{
+  background-color: #cdcd99;
+  color: #000000; /*文字顏色*/
+  border-color: #000000;
+}
+  
+.GreenList
+{
+  background-color: #dddd93; /*#ffffdb;*/
+  color: #000000; /*文字顏色*/
+  border-color: #000000;
+}
+
+.GreenListCap
+{
+  background-color: #cdcd99;
+  color: #0000000; /*文字顏色*/
+  border-color: #000000;   
+}
+.GreenListTitle
+{
+  background-color: #cdcd77;
+  color: #0000000; /*文字顏色*/
+  border-color: #000000;   
+}
+
+.Content
+{
+  background-color: #75a8cd;
+  color: #ffffff;
+  bordercolor: #6699FF;
+}
+
+.ContentCap
+{
+  background-color: #5292d6;
+  color: #000000;
+  border-color: #000000;
+}
+
+.List
+{
+  background-color: #CDE2F6;
+  color:#000000;
+  border-color: #fffff;
+}
+
+.ListCap
+{
+  background-color: #5292d6;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.RedList
+{
+  background-color: #FFCFCE;
+  color:#000000;
+  border-color: #fffff;
+}
+
+.RedListCap
+{
+  background-color: #FF9999;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.SkyList
+{
+  background-color: #C6D7E7;
+  color:#000000;
+  border-color: #ffffff;
+}
+
+.SkyListCap
+{
+  background-color: #31659c;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.BrownList
+{
+  background-color: #cccc99;
+  color:#000000;
+  border-color: #ffffff;
+}
+
+.BrownListCap
+{
+  background-color: #999966;
+  color: #ffffff;
+  border-color: #ffffff;
+}

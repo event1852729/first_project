@@ -1,0 +1,16 @@
+<?php
+ $community_number = "vtvtvtb95j";
+ $community_id = "_10"; 
+
+  $to ="az655396@yahoo.com.tw"; //收件者
+  $subject = "test"; //信件標題
+  
+  $msg = "親愛的用戶您好:\n您的啟動碼為:".$community_number.$community_id;//信件內容
+  $headers = "From: GodsSeason@gmail.com"; //寄件者
+  
+  if(mail("$to", "$subject", "$msg", "$headers")):
+   echo "信件已經發送成功。";//寄信成功就會顯示的提示訊息
+  else:
+   echo "信件發送失敗！";//寄信失敗顯示的錯誤訊息
+  endif;
+?>
